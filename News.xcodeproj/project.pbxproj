@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0095CC22447F2CB005149AD /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0095CC12447F2CB005149AD /* SearchView.swift */; };
 		D0CA4E862444AC10003EF8DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA4E852444AC10003EF8DE /* AppDelegate.swift */; };
 		D0CA4E882444AC10003EF8DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA4E872444AC10003EF8DE /* SceneDelegate.swift */; };
 		D0CA4E8A2444AC10003EF8DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA4E892444AC10003EF8DE /* ContentView.swift */; };
 		D0CA4E8C2444AC12003EF8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CA4E8B2444AC12003EF8DE /* Assets.xcassets */; };
 		D0CA4E8F2444AC12003EF8DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CA4E8E2444AC12003EF8DE /* Preview Assets.xcassets */; };
 		D0CA4E922444AC12003EF8DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CA4E902444AC12003EF8DE /* LaunchScreen.storyboard */; };
+		D0CA4E9A2444AC24003EF8DE /* GoogleNewsAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA4E992444AC24003EF8DE /* GoogleNewsAPIKey.swift */; };
+		D0CA4EA22444AEFC003EF8DE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA4E9C2444AEFC003EF8DE /* NetworkManager.swift */; };
+		D0CA4EA32444AEFC003EF8DE /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA4E9D2444AEFC003EF8DE /* PostData.swift */; };
+		D0CA4EA52444AEFC003EF8DE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA4EA02444AEFC003EF8DE /* WebView.swift */; };
+		D0D039102451150500B217A5 /* CountryCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0390F2451150500B217A5 /* CountryCodes.swift */; };
+		D0D6DBF62447E4FF00E2776F /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6DBF52447E4FF00E2776F /* ProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0CA4E822444AC10003EF8DE /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0095CC12447F2CB005149AD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D0250DE324478472000E67F5 /* SimpNews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpNews.entitlements; sourceTree = "<group>"; };
+		D0CA4E822444AC10003EF8DE /* SimpNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CA4E852444AC10003EF8DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0CA4E872444AC10003EF8DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0CA4E892444AC10003EF8DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +33,12 @@
 		D0CA4E8E2444AC12003EF8DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0CA4E912444AC12003EF8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0CA4E932444AC12003EF8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CA4E992444AC24003EF8DE /* GoogleNewsAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleNewsAPIKey.swift; sourceTree = "<group>"; };
+		D0CA4E9C2444AEFC003EF8DE /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D0CA4E9D2444AEFC003EF8DE /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		D0CA4EA02444AEFC003EF8DE /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		D0D0390F2451150500B217A5 /* CountryCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodes.swift; sourceTree = "<group>"; };
+		D0D6DBF52447E4FF00E2776F /* ProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +63,7 @@
 		D0CA4E832444AC10003EF8DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0CA4E822444AC10003EF8DE /* News.app */,
+				D0CA4E822444AC10003EF8DE /* SimpNews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +71,12 @@
 		D0CA4E842444AC10003EF8DE /* News */ = {
 			isa = PBXGroup;
 			children = (
+				D0250DE324478472000E67F5 /* SimpNews.entitlements */,
 				D0CA4E852444AC10003EF8DE /* AppDelegate.swift */,
 				D0CA4E872444AC10003EF8DE /* SceneDelegate.swift */,
-				D0CA4E892444AC10003EF8DE /* ContentView.swift */,
+				D0D0390E245114EB00B217A5 /* Data */,
+				D0CA4E9B2444AEFC003EF8DE /* Models */,
+				D0CA4E9E2444AEFC003EF8DE /* Views */,
 				D0CA4E8B2444AC12003EF8DE /* Assets.xcassets */,
 				D0CA4E902444AC12003EF8DE /* LaunchScreen.storyboard */,
 				D0CA4E932444AC12003EF8DE /* Info.plist */,
@@ -73,6 +91,35 @@
 				D0CA4E8E2444AC12003EF8DE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0CA4E9B2444AEFC003EF8DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA4E9C2444AEFC003EF8DE /* NetworkManager.swift */,
+				D0CA4E9D2444AEFC003EF8DE /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0CA4E9E2444AEFC003EF8DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA4E892444AC10003EF8DE /* ContentView.swift */,
+				D0095CC12447F2CB005149AD /* SearchView.swift */,
+				D0D6DBF52447E4FF00E2776F /* ProgressHUD.swift */,
+				D0CA4EA02444AEFC003EF8DE /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0D0390E245114EB00B217A5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA4E992444AC24003EF8DE /* GoogleNewsAPIKey.swift */,
+				D0D0390F2451150500B217A5 /* CountryCodes.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +139,7 @@
 			);
 			name = News;
 			productName = News;
-			productReference = D0CA4E822444AC10003EF8DE /* News.app */;
+			productReference = D0CA4E822444AC10003EF8DE /* SimpNews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,8 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0095CC22447F2CB005149AD /* SearchView.swift in Sources */,
 				D0CA4E862444AC10003EF8DE /* AppDelegate.swift in Sources */,
+				D0CA4EA52444AEFC003EF8DE /* WebView.swift in Sources */,
+				D0CA4EA32444AEFC003EF8DE /* PostData.swift in Sources */,
 				D0CA4E882444AC10003EF8DE /* SceneDelegate.swift in Sources */,
+				D0D039102451150500B217A5 /* CountryCodes.swift in Sources */,
+				D0CA4EA22444AEFC003EF8DE /* NetworkManager.swift in Sources */,
+				D0CA4E9A2444AC24003EF8DE /* GoogleNewsAPIKey.swift in Sources */,
+				D0D6DBF62447E4FF00E2776F /* ProgressHUD.swift in Sources */,
 				D0CA4E8A2444AC10003EF8DE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,17 +338,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = News/SimpNews.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"News/Preview Content\"";
-				DEVELOPMENT_TEAM = K5Y29Z4JQZ;
+				DEVELOPMENT_TEAM = X72S6AGP32;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = News/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tylerddakin.News;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpNews;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,17 +362,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = News/SimpNews.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"News/Preview Content\"";
-				DEVELOPMENT_TEAM = K5Y29Z4JQZ;
+				DEVELOPMENT_TEAM = X72S6AGP32;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = News/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tylerddakin.News;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpNews;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
